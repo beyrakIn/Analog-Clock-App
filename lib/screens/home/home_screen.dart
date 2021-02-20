@@ -1,4 +1,4 @@
-import 'package:clock/screens/body.dart';
+import 'package:clock/screens/home/components/body.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,13 +13,12 @@ class HomeScreen extends StatelessWidget {
   AppBar buildAppBar() {
     return AppBar(
       elevation: 0,
-      backgroundColor: Colors.white,
       leading: IconButton(
-          icon: Icon(Icons.more_vert, color: Colors.black), onPressed: () {}),
+          icon: Icon(Icons.more_vert), onPressed: () {}),
       actions: [
         Container(
           child: IconButton(
-              icon: Icon(Icons.more_vert, color: Colors.black),
+              icon: Icon(Icons.more_vert),
               onPressed: () {}),
         )
       ],

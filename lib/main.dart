@@ -1,4 +1,4 @@
-import 'package:clock/screens/home_screen.dart';
+import 'file:///C:/Users/BEYRAK/AndroidStudioProjects/clock/lib/screens/home/home_screen.dart';
 import 'package:clock/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Analog Clock',
-      // theme: themeData(context),
-      // darkTheme: darkThemeData(context),
-      // themeMode: ThemeMode.dark,
+      theme: themeData(context),
+      darkTheme: darkThemeData(context),
+      themeMode: ThemeMode.light,
       home: HomeScreen(),
     );
   }
