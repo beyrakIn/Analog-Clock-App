@@ -12,10 +12,17 @@ class HomeScreen extends StatelessWidget {
 
   AppBar buildAppBar() {
     return AppBar(
-      leading: IconButton(icon: Icon(Icons.more_vert), onPressed: () {}),
-      actions: [Container(
-        child: IconButton(icon: Icon(Icons.more_vert), onPressed: () {}),
-      )],
+      elevation: 0,
+      backgroundColor: Colors.white,
+      leading: IconButton(
+          icon: Icon(Icons.more_vert, color: Colors.black), onPressed: () {}),
+      actions: [
+        Container(
+          child: IconButton(
+              icon: Icon(Icons.more_vert, color: Colors.black),
+              onPressed: () {}),
+        )
+      ],
     );
   }
 }
